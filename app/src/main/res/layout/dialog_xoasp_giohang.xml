@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+        <TextView
+            android:id="@+id/dialog_tensp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#F00505"
+            android:text="ten sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Vui Long nhap so luong ban muon sua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edittex_dialog_soluong"
+            android:layout_marginTop="50dp"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:hint="nhap so luong can xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_dialog_xacnhan"
+            android:layout_margin="20dp"
+            android:text="Xac nhan"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_dialog_xoa"
+            android:layout_margin="20dp"
+            android:text="Xoa"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

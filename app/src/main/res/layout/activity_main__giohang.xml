@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Main_Giohang"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Gio Hang"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F80202">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listview_giohang"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5dp">
+
+    </ListView>
+
+        <TextView
+            android:id="@+id/tv_tongtien"
+            android:layout_marginTop="30dp"
+            android:text="Tong tien"
+            android:textColor="#FD0606"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_tongsoluong"
+
+        android:text="Tong tien"
+
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="vui long nhap thong tin truoc khi thanh toan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="right">
+        <Button
+            android:layout_margin="10dp"
+
+            android:background="#F0FA0707"
+            android:id="@+id/button_tieptucmuahang"
+            android:textColor="#F7CD02"
+            android:text="Tiep tuc mua hang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="10dp"
+            android:text="Nhap Thong tin"
+            android:id="@+id/button_thongtinkhach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="#F0FA0707"
+            android:id="@+id/button_thanhtoan"
+            android:textColor="#FFEB3B"
+            android:text="thanh toan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
